@@ -1,5 +1,5 @@
 
-students_height = input("Input list of student heights: ").split() # 
+students_height = input("Input list of student heights: ").split() 
 
 for n in range(0, len(students_height)):
     students_height[n] = int(students_height[n])
