@@ -28,7 +28,7 @@ for sym in range(1, n_symbols + 1):
 
 print(f"Your password: {password}")
 '''
-# hard way
+# Hard way
 
 password_list = []
 for char in range(1,n_letters + 1):
