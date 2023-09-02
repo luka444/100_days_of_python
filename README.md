@@ -6,4 +6,8 @@ new: learn shuffle
 ### 3. Complete Day 6
 nothing for code
 ### 4. Complete Day 7
+### 5. Complete Day 8
+Ceasar cipher
+paint wall
+prime number
 
