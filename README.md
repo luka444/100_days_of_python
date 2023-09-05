@@ -10,4 +10,5 @@ nothing for code
 Ceasar cipher
 paint wall
 prime number
-
+### 6. Complete Day 9
+about Dictionaries
