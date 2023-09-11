@@ -1,5 +1,6 @@
 from art import logo
 import random
+
 print(logo)
 
 print("Welcome to the Number Guessing Game!")
@@ -10,11 +11,9 @@ def random_number():
     comp = random.randint(1,100)
     return comp
 
-
-
-
 level = input("Choose a difficulty. Type 'easy' or 'hard': ")
 attempts = 0
+
 def select_level(level):
     global attempts
     if level == 'easy':
@@ -23,8 +22,6 @@ def select_level(level):
        attempts = 5
     return attempts
        
-
-
 turns = select_level(level)
 comp_choice =  random_number()
 def play_game(turns):
@@ -41,6 +38,7 @@ def play_game(turns):
 
         if guess == comp_choice:
             print("Congrats, you guess correct number!")
+            break
         elif guess > comp_choice:
             print("Too High!")
             turns -= 1
@@ -50,12 +48,4 @@ def play_game(turns):
             turns -= 1
             continue
         
-            
-   
-
 play_game(turns)
-
-
-
-
-
