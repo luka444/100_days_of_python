@@ -10,9 +10,7 @@ nothing for code
 Ceasar cipher
 paint wall
 prime number
-<<<<<<< HEAD
 
-=======
 ### 6. Complete Day 9
 about Dictionaries
->>>>>>> 045f8ca8fc91df286b5656f44c20e48d63d274ca
+
